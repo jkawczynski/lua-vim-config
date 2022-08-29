@@ -1,0 +1,5 @@
+require("configs.set")
+require("configs.remap")
+require("configs.packer")
+require("configs.completion")
+require("configs.telescope")
