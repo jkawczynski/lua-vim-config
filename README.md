@@ -7,6 +7,5 @@
 ```shell
 npm install -g pyright typescript-language-server dockerfile-language-server-nodejs bash-language-server
 ```
-
-
-
+- open neovim and run PackerSync
+- restart neovim
