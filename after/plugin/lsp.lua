@@ -33,3 +33,5 @@ end
 local nvim_lsp = require 'lspconfig'
 nvim_lsp['pyright'].setup{ on_attach = on_attach }
 nvim_lsp['tsserver'].setup{ on_attach = on_attach }
+nvim_lsp['dockerls'].setup{ on_attach = on_attach }
+nvim_lsp['bashls'].setup{ on_attach = on_attach }
