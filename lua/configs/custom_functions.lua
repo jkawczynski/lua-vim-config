@@ -18,6 +18,8 @@ M.formatfile= function()
     if file_type == "python" then
         vim.cmd("!isort " .. file_path)
         vim.cmd("!black " .. file_path)
+    elseif file_type == "rust" then
+        vim.cmd("!cargo fmt ")
     elseif has_value(frontend_filetypes, file_type) then
         vim.cmd("!prettier -w " .. file_path)
     end
